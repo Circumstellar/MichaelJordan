@@ -1,0 +1,18 @@
+# filt_index 	name	wl_iso	Fnu	source
+0	U	0.3597		1801.4	BessellMurphy12
+1	B	0.4377		4092.6	BessellMurphy12
+2	V	0.5488		3698.3	BessellMurphy12
+3	R	0.6515		3124.6	BessellMurphy12
+4	I	0.7981		2502.7	BessellMurphy12
+5 	J_2M	1.235		1594.0	Cohen03
+6 	H_2M	1.662		1024.0	Cohen03
+7 	Ks_2M	2.159		666.8	Cohen03
+8 	WISE1	3.36  		309.450	Jarrett11
+9 	IRAC1	3.550		280.9	Reach05
+10	IRAC2	4.493		179.7	Reach05
+11	WISE2	4.60  		171.787	Jarrett11
+12	IRAC3	5.731		115.0	Reach05
+13	IRAC4	7.872		64.13	Reach05
+14	WISE3	11.56  		31.674	Jarrett11
+15	WISE4	22.08  		8.363	Jarrett11
+16	MIPS1	23.68		7.14	dunno
