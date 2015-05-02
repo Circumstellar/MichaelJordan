@@ -15,7 +15,7 @@ def plot(flatchain, format=".png"):
     Make a triangle plot
     '''
 
-    labels = [r"$T_\textrm{eff}$ [K]", r"$\log g$ [dex]", r"$R$ [$R_\odot$]", r"$A_V$ [mag]", r"$d$ [pc]"]
+    labels = [r"$T_\textrm{eff}$ [K]", r"$\log g$ [dex]", r"$\log_{10} L$ [$L_\odot$]", r"$A_V$ [mag]", r"$d$ [pc]", r"$\sigma_U$", r"$\sigma_B$", r"$\sigma_B$", r"$\sigma_V$", r"$\sigma_R$", r"$\sigma_I$"]
     figure = triangle.corner(flatchain, quantiles=[0.16, 0.5, 0.84],
         plot_contours=True, plot_datapoints=False, labels=labels, show_titles=True)
     figure.savefig("triangle" + format)
